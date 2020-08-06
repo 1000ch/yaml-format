@@ -1,0 +1,38 @@
+{
+  "name": "yaml-format",
+  "private": true,
+  "description": "Format YAML.",
+  "homepage": "https://github.com/1000ch/yaml-format#readme",
+  "bugs": {
+    "url": "https://github.com/1000ch/yaml-format/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000ch/yaml-format.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Shogo Sensui",
+    "email": "shogosensui@gmail.com",
+    "url": "https://github.com/1000ch"
+  },
+  "scripts": {
+    "build": "parcel build src/app.js",
+    "test": "xo"
+  },
+  "xo": {
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "space": 2
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0"
+  },
+  "devDependencies": {
+    "html-ready": "^2.0.0",
+    "parcel-bundler": "^1.12.4",
+    "xo": "^0.32.1"
+  }
+}
