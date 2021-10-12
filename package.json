@@ -17,7 +17,6 @@
     "url": "https://github.com/1000ch"
   },
   "scripts": {
-    "build": "parcel build src/app.js",
     "test": "xo"
   },
   "xo": {
@@ -27,12 +26,7 @@
     ],
     "space": 2
   },
-  "dependencies": {
-    "js-yaml": "^3.14.0"
-  },
   "devDependencies": {
-    "html-ready": "^2.0.0",
-    "parcel-bundler": "^1.12.4",
-    "xo": "^0.32.1"
+    "xo": "^0.45.0"
   }
 }
